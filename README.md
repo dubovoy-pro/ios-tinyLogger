@@ -1,3 +1,3 @@
 # TinyLogger
 
-A description of this package.
+Lightweight logger with logs sharing via device shaking.
