@@ -7,7 +7,7 @@ public class TinyLogger {
     public static let shared = TinyLogger()
     
     public func getLogsTitle() -> String {
-        let time = TinyLogger.makeFormatter(dateFormat: "YYYY-MM-DD (H-m)").string(from: Date())
+        let time = TinyLogger.makeFormatter(dateFormat: "YYYY-MM-DD (HH-mm)").string(from: Date())
         return "iOS App Logs \(time).txt"
     }
     
